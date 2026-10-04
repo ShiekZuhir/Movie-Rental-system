@@ -1,0 +1,76 @@
+{
+  "actors": {
+    "A0001": {
+      "actor_id": "A0001",
+      "name": "Mark",
+      "surname": "Hamill",
+      "nationality": "American"
+    },
+    "A0002": {
+      "actor_id": "A0002",
+      "name": "Uma",
+      "surname": "Thurman",
+      "nationality": "American"
+    },
+    "A0003": {
+      "actor_id": "A0003",
+      "name": "Robert",
+      "surname": "De Niro",
+      "nationality": "American"
+    }
+  },
+  "customers": {
+    "12345678": {
+      "name": "John",
+      "surname": "Smith",
+      "id_card_number": "12345678",
+      "phone_number": "555-1234",
+      "email_address": "john@email.com",
+      "current_rentals": [],
+      "rental_history": []
+    },
+    "87654321": {
+      "name": "Maria",
+      "surname": "Garcia",
+      "id_card_number": "87654321",
+      "phone_number": "555-5678",
+      "email_address": "maria@email.com",
+      "current_rentals": [],
+      "rental_history": []
+    }
+  },
+  "movies": [
+    {
+      "title": "Star Wars: Episode IV A New Hope ",
+      "genre": "Sci-Fi",
+      "main_actor_id": "A0001",
+      "duration": 121,
+      "production_year": 1977,
+      "is_rented": false,
+      "movie_type": "DVDMovie",
+      "number_of_layers": 2
+    },
+    {
+      "title": "Pulp Fiction",
+      "genre": "Crime",
+      "main_actor_id": "A0002",
+      "duration": 154,
+      "production_year": 1994,
+      "is_rented": false,
+      "movie_type": "VHSMovie",
+      "vhs_type": "Super-VHS"
+    },
+    {
+      "title": "Taxi Driver",
+      "genre": "Drama",
+      "main_actor_id": "A0003",
+      "duration": 114,
+      "production_year": 1976,
+      "is_rented": false,
+      "movie_type": "CompactMemoryMovie",
+      "encoding_type": "MP4"
+    }
+  ],
+  "rentals": [],
+  "next_actor_id": 4
+}
